@@ -1,0 +1,38 @@
+
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  margin:0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.progress{
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  border-radius: 20px;
+  height: 30px;
+  width: 300px;
+}
+
+.progress-done{
+  background-color: #f3e6e8;
+ background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+  box-shadow: 0 3px 3px -5px #f8ceec, 0 2px 5px #f3ceec;
+  height: 100%;
+  width:100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 2s ease;
+  color:#fff;
+}
